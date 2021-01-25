@@ -23,6 +23,8 @@ body {
 
 .logo {
     width: 800px;
+    margin-top: 45px;
+    margin-bottom: 45px;
     margin-left: auto;
     margin-right: auto;
     display: block;
