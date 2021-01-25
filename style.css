@@ -1,38 +1,47 @@
-.logo-game {
-    width: 1500px;
-    height: 200px;
-    margin: 30px;
-    background-color: green;
-
+body {
+    background-color: #C19AB3 ;
 }
 
-.wrapper-flex {
+.container{
     display: flex;
-    justify-content: space-around;
-    background-color: rgb(178, 230, 178);
-    margin: 30px;
-    height: 600px;
-    position: absolute;
+    justify-content: column;
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+    height: 1080px;
+}
+
+.logo-game {
+    width: 1400px;
+    height: 200px;
+    padding: 0px;
+    background-color: green;
+    position: fixed;
+    display: block;
+}
+
+.logo {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
 }
 
 .instructions {
     width: 300px;
     height: 500px;
-    margin: 20px;
-    padding: 30px;
-    display: flex;
+    margin: 300px 20px 20px 50px;
+    padding: 0px;
     background-color: rgb(123, 128, 123);
-    position: relative;
 }
 
 .start-game {
     width: 600px;
     height: 500px;
-    margin: 20px;
-    padding: 30px;
+    margin: 300px 20px 0px 25px;
+    padding: 0px;
     background-color: rgb(66, 68, 66);
     position: relative;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -44,9 +53,11 @@
 .score {
     width: 300px;
     height: 500px;
-    margin: 20px;
-    padding: 30px;
-    display: flex;
+    margin: 300px 0px 0px 25px;
+    padding: 0px;
     background-color: rgb(28, 31, 28);
-    position: relative;
+}
+
+.start-canvas {
+    border: 1px solid black;
 }
