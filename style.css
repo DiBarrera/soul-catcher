@@ -1,0 +1,52 @@
+.logo-game {
+    width: 1500px;
+    height: 200px;
+    margin: 30px;
+    background-color: green;
+
+}
+
+.wrapper-flex {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(178, 230, 178);
+    margin: 30px;
+    height: 600px;
+    position: absolute;
+}
+
+.instructions {
+    width: 300px;
+    height: 500px;
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    background-color: rgb(123, 128, 123);
+    position: relative;
+}
+
+.start-game {
+    width: 600px;
+    height: 500px;
+    margin: 20px;
+    padding: 30px;
+    background-color: rgb(66, 68, 66);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-center img {
+    width: 120px;
+}
+
+.score {
+    width: 300px;
+    height: 500px;
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    background-color: rgb(28, 31, 28);
+    position: relative;
+}
