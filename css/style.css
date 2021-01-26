@@ -3,24 +3,21 @@ body {
     margin: 0px;
     padding: 0px;
 }
-
 .container{
     display: flex;
-    justify-content: column;
     margin: 0;
     padding: 0;
-    width: 1920px;
-    height: 1080px;
-}
-
-.logo-game {
-    width: 1400px;
-    height: 200px;
-    padding: 0px;
-    position: fixed;
+    width: 1500px;
+    height: 300px;
     display: block;
 }
-
+.container2{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 1500px;
+    height: 780px;
+}
 .logo {
     width: 800px;
     margin-top: 45px;
@@ -30,40 +27,33 @@ body {
     display: block;
     padding: 0px;
 }
-
-.instructions {
+.instructions img {
     width: 300px;
     height: 500px;
-    margin: 300px 20px 20px 50px;
+    margin: 0px 20px 20px 100px;
     padding: 0px;
     background-color: rgb(123, 128, 123);
 }
-
 .start-game {
+    background-image: url(“”);
     width: 600px;
     height: 500px;
-    margin: 300px 20px 0px 25px;
+    margin: 0px 20px 0px 25px;
     padding: 0px;
-    background-color: rgb(66, 68, 66);
-    position: relative;
-    justify-content: center;
-    align-items: center;
 }
-
 .btn-center img {
     margin: auto;
     display: block;
-    width: 500px;
+    padding: 0px;
+    width: 400px;
 }
-
 .score {
     width: 300px;
     height: 500px;
-    margin: 300px 0px 0px 25px;
+    margin: 0px 0px 100px 25px;
     padding: 0px;
     background-color: rgb(28, 31, 28);
 }
-
 .start-canvas {
     border: 1px solid black;
 }
